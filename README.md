@@ -1,0 +1,2 @@
+# javascriptwebkom
+javascript school thing
