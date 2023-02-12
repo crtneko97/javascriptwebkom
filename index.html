@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>FakeShop Project</title>
+</head>
+<body>
+    <header>
+    <nav>
+        <p id="cartNumber"></p>
+        <button onClick="goToBasket()" id="cart"><i class="fa-solid fa-cart-shopping"></i></button>
+        
+
+        <div class="catergoryDown">
+            <p>categorys</p>
+            <div class="cDown">
+            <button id="all" onclick=refreshPage()>All</button>
+            <button id="men's clothing" onclick=filterProducts(id)>men's clothing</button>
+            <button id="women's clothing" onclick=filterProducts(id)>women's clothing</button>
+            <button id="jewelery" onclick=filterProducts(id)>jewelery</button>
+            <button id ="electronics" onclick="filterProducts(id)">electronics</button>
+            </div>
+        </div>
+    </nav>
+
+    <h1 id="pageTitle">Page title</h1>
+    <button id="Basket">Basket</button>
+    <a href="admin.html">Admin-Sida</a>
+    </header>
+    <main>
+        
+        
+        <section id="fakeshopSection">
+           
+
+        </section>
+        
+    </main>
+
+
+    <footer></footer>
+    <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/cc1319ba98.js" crossorigin="anonymous"></script>
+</body>
+</html>
